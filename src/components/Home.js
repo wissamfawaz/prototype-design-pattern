@@ -1,7 +1,7 @@
 import { auth } from "../firebase";
 import '../styles/Home.css';
 import { useState, useEffect } from "react";
-import mainFile from "../media/main.exe"
+import mainFile from "../media/main.py"
 
 const Home = ({props}) => {
     return(
