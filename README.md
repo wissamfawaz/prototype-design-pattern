@@ -1,3 +1,5 @@
+# prototype-design-pattern
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
@@ -41,3 +43,5 @@ change colors, clear all, change widths or select the eraser
 A circle on the top right helps vizualize the current selected width and color. However
 a current color hexagone is also avaible to showcase current colors while using small
 widths
+
+
