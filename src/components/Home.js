@@ -1,6 +1,7 @@
 import { auth } from "../firebase";
 import '../styles/Home.css';
 import { useState, useEffect } from "react";
+import mainFile from "../media/main.exe"
 
 const Home = ({props}) => {
     return(
@@ -11,7 +12,7 @@ const Home = ({props}) => {
             <h2>Let's get started, for real this time.</h2>
             <p> You have 2 options: <br/> Download the file and run it on your laptop or open the code in Google Colab</p>
             <div id="buttons">
-                <a href="../media/main.exe" download="facebook">
+                <a href={mainFile} download>
                     <button> Download the code</button> <br/>
                 </a>
                 <button onClick={() => { window.open("https://colab.research.google.com/drive/1y5iXuroVAj2JF3ePJregRPKnDDfZVN8D?usp=sharing", "_blank")}}> Open in Google Colab</button>
